@@ -1,7 +1,7 @@
 //virtual sequence and virtual sequencer
 class virtual_seq extends uvm_sequence#(uvm_sequence_item);
   'uvm_object_utils(virtual_seq)
-  virtual sequencer v_seqr;
+  virtual_sequencer v_seqr;
   sequencer seqr;
   sequence_1 seq1;
   sequence_2 seq2;
